@@ -1,0 +1,6 @@
+****Ted Library Mangement System****
+
+This program i run using wamp server.
+Connect by using localhost/TedLMS on any web browser.
+SQL using phpMyAdmin.
+Database need to be created in SQL for function run succefully.

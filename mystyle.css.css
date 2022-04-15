@@ -1,0 +1,157 @@
+
+body {
+  background-color: black;
+  test-family: Helvetica,Arial,Sans-serif;
+  font-size : 14px;
+  line-height : 1.4em
+  margin : 0 all sides;
+  padding: 0 all sides;
+
+
+ 
+  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+h1 {
+  color: skyblue;
+  text-align: center;
+  font-family: normal;
+  margin-top:12px;
+  margin-bottom:8px;
+  margin-left:0;
+  margin-right:0;
+  padding:0;
+}
+nav#topNavigation{
+	color:green;
+	text-align:center;
+	font-family: italic;
+	background-color:rgb(128,0,0);
+	font-weight :bold
+	margin: 0;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	padding-left : 18px;
+	padding-right : 18px;
+
+
+}
+footer#pageFooter{
+	color : red;
+	font-size:0.9em;
+	Margin:0;
+	Padding:0;
+	border-top:1px dotted black;
+
+	
+	
+	
+	
+}
+article {
+  color: skyblue;
+  font-family: italic;
+  font-size: 20px;
+}
+p {
+  color: skyblue;
+  font-family: italic;
+  font-size: 20px;
+}
+nav a, nav
+a:link, nav
+a:visited
+{
+	color:rgb(255,255,255)
+}
+a, a:link,
+a:visited,
+a:hover
+{
+	color:rgb(238,130,238)
+	text-decoration:underline;
+}
+
+nav a:hover
+{
+	color:rgb(255,255,26)
+	text-decoration: none;
+	
+	
+}
+
+header#pageHeader
+{
+	Margin: 0;
+    Padding: 0 ;
+}
+
+table{
+	border:5px solid rgb(0,153,0);
+	border-spacing:4px;
+	margin:0;
+	padding:2px, 2px, 2px, 2px;
+	Width:840px;
+}
+caption{
+	margin:0;
+	padding:10px,10px,10px,10px;
+	font-style: italic;
+	color:white;
+}
+tr 
+{
+	background-color:rgb(217,217,217)
+}
+th{
+	margin:0;
+	padding:10px,10px,10px,10px;
+	color:rgb(255,255,255);
+	background-color:rgb(51,51,153);
+}
+td{
+	margin:0;
+	padding:10px,10px,10px,10px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 9px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 18%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.active, .navbar a:hover {
+	background-color:skyblue;
+	color: black;
+	
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 50%;
+    text-align: left;
+  }
+
+
+
+
